@@ -1,0 +1,4 @@
+#sidebar TableOfContents
+
+Class header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA/Region.h# BWTA/Region.h]
+
