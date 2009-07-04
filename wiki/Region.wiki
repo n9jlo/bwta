@@ -21,11 +21,11 @@ const BWAPI::Position& getCenter() const;
 Returns the center of the region.
 
 === getChokepoints ===
-const std::set<Chokepoint*>& getChokepoints() const;
+const std::set<Chokepoint{{{*}}}>& getChokepoints() const;
 
 Returns the set of chokepoints adjacent to the region.
 
 === getBaseLocations ===
-const std::set<BaseLocation*>& getBaseLocations() const;
+const std::set<BaseLocation{{{*}}}>& getBaseLocations() const;
 
 Returns the set of base locations in the region.
