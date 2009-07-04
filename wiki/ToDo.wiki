@@ -1,3 +1,2 @@
-
   * Make documentation
-  * Fix crash on Astral Balance
+  * Fix bug on Destination
