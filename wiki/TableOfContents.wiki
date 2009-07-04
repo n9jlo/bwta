@@ -1,3 +1,4 @@
+  * [BWTA]
   * [BaseLocation]
   * [Chokepoint]
   * [Polygon]
