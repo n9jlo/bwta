@@ -1,0 +1,3 @@
+#sidebar TableOfContents
+
+Class header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA/Polygon.h# BWTA/Polygon.h]
