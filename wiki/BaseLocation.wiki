@@ -23,27 +23,27 @@ BWAPI::TilePosition getTilePosition() const;
 Returns the tile position of the base location.
 
 === getRegion ===
-Region* getRegion() const;
+Region{{{*}}} getRegion() const;
 
 Returns the region the base location is in.
 
 === getMinerals ===
-const std::set<BWAPI::Unit*> &getMinerals() const;
+const std::set<BWAPI::Unit{{{*}}}> &getMinerals() const;
 
 Returns the set of minerals near the base location.
 
 === getGeysers ===
-const std::set<BWAPI::Unit*> &getGeysers() const;
+const std::set<BWAPI::Unit{{{*}}}> &getGeysers() const;
 
 Returns the set of vespene geysers near the base location. If the set is empty, the base location is mineral only.
 
 === getGroundDistance ===
-double getGroundDistance(BaseLocation* other) const;
+double getGroundDistance(BaseLocation{{{*}}} other) const;
 
 Returns the ground (walking) distance to the given base location.
 
 === getAirDistance ===
-double getAirDistance(BaseLocation* other) const;
+double getAirDistance(BaseLocation{{{*}}} other) const;
 
 Returns the air (flying) distance to the given base location.
 
