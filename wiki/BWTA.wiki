@@ -1,0 +1,3 @@
+#sidebar TableOfContents
+
+Library header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA.h# BWTA.h]
