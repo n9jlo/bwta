@@ -1,3 +1,28 @@
 #sidebar TableOfContents
 
 Class header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA/Chokepoint.h# BWTA/Chokepoint.h]
+
+  * [#getRegions getRegions]
+  * [#getSides getSides]
+  * [#getCenter getCenter]
+  * [#getWidth getWidth]
+
+=== getRegions ===
+const std::pair<[Region]{{{*}}},[Region]{{{*}}}>& getRegions() const;
+
+Returns the two regions the chokepoint connects.
+
+=== getSides ===
+const std::pair<BWAPI::Position,BWAPI::Position>& getSides() const;
+
+Returns the two sides of the chokepoint.
+
+=== getCenter ===
+BWAPI::Position getCenter() const;
+
+Returns the center of the chokepoint.
+
+=== getWidth ===
+double getWidth() const;
+
+Returns the width of the chokepoint.
