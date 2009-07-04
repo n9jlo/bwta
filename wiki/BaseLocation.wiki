@@ -17,12 +17,12 @@ Methods:
   * [#isIsland isIsland]
 
 === getPosition ===
-BWAPI::Position getPosition() const;
+[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] getPosition() const;
 
 Returns the position of the center of the base location.
 
 === getTilePosition ===
-BWAPI::TilePosition getTilePosition() const;
+[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] getTilePosition() const;
 
 Returns the tile position of the base location.
 
@@ -32,12 +32,12 @@ Returns the tile position of the base location.
 Returns the region the base location is in.
 
 === getMinerals ===
-const std::set<BWAPI::Unit{{{*}}}> &getMinerals() const;
+const std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Unit Unit]{{{*}}}> &getMinerals() const;
 
 Returns the set of minerals near the base location.
 
 === getGeysers ===
-const std::set<BWAPI::Unit{{{*}}}> &getGeysers() const;
+const std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Unit Unit]{{{*}}}> &getGeysers() const;
 
 Returns the set of vespene geysers near the base location. If the set is empty, the base location is mineral only.
 
