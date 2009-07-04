@@ -2,7 +2,7 @@
 
 Class header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA/Polygon.h# BWTA/Polygon.h]
 
-A BWTA::Polygon is a std::vector of BWAPI::Position objects, so to iterate over the vertices of a BWTA::Polygon you just need to iterate over the vector.
+A BWTA::[Polygon] is a std::vector of BWAPI::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] objects, so to iterate over the vertices of a BWTA::[Polygon] you just need to iterate over the vector.
 
 Methods:
 
@@ -22,11 +22,11 @@ double getPerimeter() const;
 Returns the perimeter of the polygon.
 
 === getCenter ===
-BWAPI::Position getCenter() const;
+[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] getCenter() const;
 
 Returns the centroid of the polygon.
 
 === isInside ===
-bool isInside(BWAPI::Position p) const;
+bool isInside([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] p) const;
 
 Returns true if the given point is inside the polygon.
