@@ -1,0 +1,4 @@
+  * [BaseLocation]
+  * [Chokepoint]
+  * [Polygon]
+  * [Region]
