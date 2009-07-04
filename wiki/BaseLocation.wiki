@@ -2,15 +2,15 @@
 
 Class header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA/BaseLocation.h# BWTA/BaseLocation.h]
 
-  * [getPosition]
-  * [getTilePosition]
-  * [getRegion]
-  * [getMinerals]
-  * [getGeysers]
-  * [getGroundDistance]
-  * [getAirDistance]
-  * [isMineralOnly]
-  * [isIsland]
+  * [#getPosition]
+  * [#getTilePosition]
+  * [#getRegion]
+  * [#getMinerals]
+  * [#getGeysers]
+  * [#getGroundDistance]
+  * [#getAirDistance]
+  * [#isMineralOnly]
+  * [#isIsland]
 
 === getPosition ===
 BWAPI::Position getPosition() const;
