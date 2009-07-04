@@ -17,12 +17,12 @@ const std::pair<[Region]{{{*}}},[Region]{{{*}}}>& getRegions() const;
 Returns the two regions the chokepoint connects.
 
 === getSides ===
-const std::pair<BWAPI::Position,BWAPI::Position>& getSides() const;
+const std::pair<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position],[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position]>& getSides() const;
 
 Returns the two sides of the chokepoint.
 
 === getCenter ===
-BWAPI::Position getCenter() const;
+[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] getCenter() const;
 
 Returns the center of the chokepoint.
 
