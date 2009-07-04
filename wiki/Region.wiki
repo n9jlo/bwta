@@ -2,7 +2,7 @@
 
 Class header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA/Region.h# BWTA/Region.h]
 
-A region is a partition of the map with a polygon boundary, and is connected to other regions via chokepoints.
+A region is a partition of the map with a polygon boundary, and is connected to other regions via [Chokepoint chokepoints].
 
 Methods:
 
