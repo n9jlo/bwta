@@ -2,6 +2,10 @@
 
 Class header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA/Chokepoint.h# BWTA/Chokepoint.h]
 
+A chokepoint connects exactly two regions.
+
+Methods:
+
   * [#getRegions getRegions]
   * [#getSides getSides]
   * [#getCenter getCenter]
