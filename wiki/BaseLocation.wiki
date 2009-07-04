@@ -2,6 +2,10 @@
 
 Class header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA/BaseLocation.h# BWTA/BaseLocation.h]
 
+A BaseLocation a position on the map where it makes sense to place a base (i.e. near minerals).
+
+Methods:
+
   * [#getPosition getPosition]
   * [#getTilePosition getTilePosition]
   * [#getRegion getRegion]
