@@ -23,7 +23,7 @@ BWAPI::TilePosition getTilePosition() const;
 Returns the tile position of the base location.
 
 === getRegion ===
-Region{{{*}}} getRegion() const;
+[Region]{{{*}}} getRegion() const;
 
 Returns the region the base location is in.
 
