@@ -1,3 +1,36 @@
 #sidebar TableOfContents
 
 Library header file: [http://code.google.com/p/bwta/source/browse/trunk/include/BWTA.h# BWTA.h]
+
+Global functions:
+
+  * [#analyze analyze]
+  * [#getRegions getRegions]
+  * [#getChokepoints getChokepoints]
+  * [#getBaseLocations getBaseLocations]
+  * [#getStartLocation getStartLocation]
+
+=== analyze ===
+void analyze();
+
+Before any other global functions can be called, the map must first be analyzed.
+
+=== getRegions ===
+std::set<[Region]{{{*}}}>& getRegions();
+
+Returns the set of regions in the map.
+
+=== getChokepoints ===
+std::set<[Chokepoint]{{{*}}}>& getChokepoints();
+
+Returns the set of chokepoints in the map.
+
+=== getBaseLocations ===
+std::set<[BaseLocation]{{{*}}}>& getBaseLocations();
+
+Returns the set of base locations in the map.
+
+=== getStartLocation ===
+[BaseLocation]{{{*}}} getStartLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Player Player]{{{*}}} player);
+
+Given a pointer to a BWAPI::Player object, this function returns a pointer to the player's starting base location.
