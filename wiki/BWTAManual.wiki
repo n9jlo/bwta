@@ -1,0 +1,11 @@
+#sidebar TableOfContents
+
+BWTA is a add-on for BWAPI that analyzes the map and locations the regions, chokepoints, and base locations.
+
+
+== Contents ==
+  * BWTA
+  * BaseLocation
+  * Chokepoint
+  * Polygon
+  * Region
