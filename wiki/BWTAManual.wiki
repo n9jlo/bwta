@@ -4,8 +4,9 @@ BWTA is a add-on for BWAPI that analyzes the map and locations the regions, chok
 
 
 == Contents ==
-  * BWTA
-  * BaseLocation
-  * Chokepoint
-  * Polygon
-  * Region
+  * [BWTAManual API]
+  * [BWTA]
+  * [BaseLocation]
+  * [Chokepoint]
+  * [Polygon]
+  * [Region]
