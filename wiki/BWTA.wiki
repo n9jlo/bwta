@@ -13,7 +13,7 @@ Global functions:
 === analyze ===
 void analyze();
 
-Before any other global functions can be called, the map must first be analyzed.
+Before any other global functions can be called, the map must first be analyzed. Analyzing a starcraft map can take a long time, depending on your computer, so BWTA also automatically saves the results to a file when it is done. When you call analyze on the same map, BWTA will see that the results file for that map already exists, and load the results from file, rather than re-analyzing the map.
 
 === getRegions ===
 std::set<[Region]{{{*}}}>& getRegions();
