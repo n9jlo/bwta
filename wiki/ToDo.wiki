@@ -1,2 +1,1 @@
-  * Save data to file, load it next time instead of re-analyzing map.
   * Fix bug on Destination
