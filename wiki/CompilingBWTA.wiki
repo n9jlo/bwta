@@ -1,0 +1,10 @@
+Follow these instructions to install Boost and CGAL:
+http://acg.cs.tau.ac.il/cgal-at-tau/installing-cgal-and-related-programs-on-windows
+
+If you are missing CGAL/compiler_config.h, you can use the following: http://pastebin.org/4099
+
+In file segment_delaunay_graph_2.h, edit line 1237 and replace "protected" with "public".
+
+Checkout BWTA from the svn: http://code.google.com/p/bwta/source/checkout .
+
+Build as release.
