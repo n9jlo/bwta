@@ -13,8 +13,9 @@ Methods:
   * [#getGeysers getGeysers]
   * [#getGroundDistance getGroundDistance]
   * [#getAirDistance getAirDistance]
-  * [#isMineralOnly isMineralOnly]
   * [#isIsland isIsland]
+  * [#isMineralOnly isMineralOnly]
+  * [#isStartLocation isStartLocation]
 
 === getPosition ===
 [http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] getPosition() const;
@@ -51,12 +52,17 @@ double getAirDistance(BaseLocation{{{*}}} other) const;
 
 Returns the air (flying) distance to the given base location.
 
+=== isIsland ===
+bool isIsland() const;
+
+Returns true if the base location not in not reachable by ground from any other base location.
+
 === isMineralOnly ===
 bool isMineralOnly() const;
 
 Returns true if the base location is mineral-only.
 
-=== isIsland ===
-bool isIsland() const;
+=== isStartLocation ===
+bool isStartLocation() const;
 
-Returns true if the base location not in not reachable by ground from any other base location.
+Returns true if the base location is a start location.
