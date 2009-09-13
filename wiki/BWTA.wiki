@@ -8,7 +8,9 @@ Global functions:
   * [#getRegions getRegions]
   * [#getChokepoints getChokepoints]
   * [#getBaseLocations getBaseLocations]
+  * [#getStartLocations getStartLocations]
   * [#getStartLocation getStartLocation]
+  * [#getNearestBaseLocation getNearestBaseLocation]
 
 === analyze ===
 void analyze();
@@ -28,9 +30,19 @@ Returns the set of chokepoints in the map.
 === getBaseLocations ===
 std::set<[BaseLocation]{{{*}}}>& getBaseLocations();
 
-Returns the set of base locations in the map.
+Returns the set of base locations on the map.
+
+=== getStartLocations ===
+std::set<[BaseLocation]{{{*}}}>& getStartLocations();
+
+Returns the set of base locations that are start locations.
 
 === getStartLocation ===
 [BaseLocation]{{{*}}} getStartLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Player Player]{{{*}}} player);
 
 Given a pointer to a BWAPI::Player object, this function returns a pointer to the player's starting base location.
+
+=== getNearestBaseLocation ===
+[BaseLocation]{{{*}}} getNearestBaseLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc TilePosition] position);
+
+Returns the base location that is closest (in euclidean distance) to the given tile position.
