@@ -43,6 +43,6 @@ Returns the set of base locations that are start locations.
 Given a pointer to a BWAPI::Player object, this function returns a pointer to the player's starting base location.
 
 === getNearestBaseLocation ===
-[BaseLocation]{{{*}}} getNearestBaseLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc TilePosition] position);
+[BaseLocation]{{{*}}} getNearestBaseLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] position);
 
 Returns the base location that is closest (in euclidean distance) to the given tile position.
