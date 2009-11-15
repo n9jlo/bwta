@@ -5,18 +5,19 @@
 || iCCup avatar.scx || BWAPI crashes in lobby, before match starts || BWAPI crashes in lobby, before match starts ||
 || ICCup battleroyal.scx || good || good ||
 || ICCup blue storm 1.2.scx || good || good ||
-|| ICCup byzantium ii 2.2.scx || good || good ||
-|| ICCup carthage1.0.scm || good || good ||
+|| ICCup byzantium3.0.scx || untested || good ||
+|| ICCup carthage2.0.scm || untested || good ||
 || ICCup colosseumii 2.0.scx || good || good ||
 || ICCup destination 1.1.scx || chokepoint error || good ||
-|| iCCup enarey1.3.scx || untested || untested ||
-|| ICCup faoi 2.1.scx || untested || untested ||
-|| ICCup gaia.scx || untested || untested ||
-|| ICCup gods garden.scx || untested || untested ||
-|| ICCup hannibal 1.1.scx || untested || untested ||
-|| ICCup heartbreak ridge.scx || untested || untested ||
+|| iCCup enarey1.3.scx || untested || good ||
+|| ICCup faoi 2.1.scx || untested || crash ||
+|| ICCup gaia.scx || untested || crash ||
+|| ICCup gods garden.scx || untested || crash ||
+|| ICCup hannibal 1.1.scx || untested || good ||
+|| ICCup heartbreak ridge1.1.scx || untested || overlapping base locations in center ||
+|| iCCup holy world 1.1.scx || untested || [#single_base_location ok] ||
 || ICCup hunters_kespa 1.1.scx || untested || good ||
-|| ICCup hwangsanbul 1.2.scx || untested || untested ||
+|| ICCup hwangsanbul 1.2.scx || untested || good ||
 || ICCup katrina_se 2.0.scx || untested || untested ||
 || ICCup longinus.scx || good || untested ||
 || ICCup lost temple 2.4.scx || good || good ||
