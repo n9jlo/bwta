@@ -1,8 +1,8 @@
 || Map || 1.4.2 || not commited yet ||
-|| iCCup adrenaline rush.scm || Chokepoints good, base locations need work || untested ||
-|| ICCup andromeda 1.0.scx || good || untested ||
-|| ICCup athena ii.scx || good || untested ||
-|| iCCup avatar.scx || BWAPI crashes in lobby, before match starts || untested ||
+|| iCCup adrenaline rush.scm || [#single_base_location ok] || [#single_base_location ok] ||
+|| ICCup andromeda 1.0.scx || good || good ||
+|| ICCup athena ii.scx || good || good ||
+|| iCCup avatar.scx || BWAPI crashes in lobby, before match starts || BWAPI crashes in lobby, before match starts ||
 || ICCup battleroyal.scx || good || untested ||
 || ICCup blue storm 1.2.scx || good || untested ||
 || ICCup byzantium ii 2.2.scx || good || untested ||
@@ -43,8 +43,8 @@
 || ICCup vampire.scx || untested || untested ||
 || ICCup voices iv.scx || untested || untested ||
 || ICCup wuthering h 1.0.scx || untested || untested ||
-|| ICCup yellow 1.1.scx || untested || untested ||
-|| ICCup zodiac.scx || untested || untested ||
+|| ICCup yellow 1.1.scx || untested || good ||
+|| ICCup zodiac.scx || untested || good ||
 
 === single_base_location ===
 
