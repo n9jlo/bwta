@@ -1,2 +1,1 @@
   * Add BWTA::readMap()
-  * Fix bug on Destination
