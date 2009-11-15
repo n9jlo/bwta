@@ -26,7 +26,7 @@
 || ICCup neomedusa2.0.scx || untested || untested ||
 || ICCup odyssey.scx || untested || untested ||
 || ICCup othello 1.1.scx || untested || untested ||
-|| ICCup outsider.scx || chokepoint error || [#base_location ok] ||
+|| ICCup outsider.scx || chokepoint error || [#single_base_location ok] ||
 || ICCup peaksofbeakdu.scx || chokepoint error || good ||
 || ICCup python 1.3.scx || good || untested ||
 || ICCup return of the king.scx || good || untested ||
@@ -46,6 +46,6 @@
 || ICCup yellow 1.1.scx || untested || untested ||
 || ICCup zodiac.scx || untested || untested ||
 
-== base_location ==
+=== single_base_location ===
 
 These maps have a suitable base locations for each mineral cluster, however they only specify one possible side of the mineral cluster when a resource depot could be placed on either side. BWTA only allows one base location per mineral cluster at this time.
