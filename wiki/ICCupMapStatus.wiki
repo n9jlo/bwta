@@ -26,12 +26,12 @@
 || ICCup neomedusa2.0.scx || untested || untested ||
 || ICCup odyssey.scx || untested || untested ||
 || ICCup othello 1.1.scx || untested || untested ||
-|| ICCup outsider.scx || chokepoint error || untested ||
-|| ICCup peaksofbeakdu.scx || chokepoint error || untested ||
+|| ICCup outsider.scx || chokepoint error || [base_location ok] ||
+|| ICCup peaksofbeakdu.scx || chokepoint error || good ||
 || ICCup python 1.3.scx || good || untested ||
 || ICCup return of the king.scx || good || untested ||
 || iCCup ridge2ridge2.1.scm || good || untested ||
-|| ICCup rush hour 3.1.scx || chokepoint error || untested ||
+|| ICCup rush hour 3.1.scx || chokepoint error || good ||
 || iCCup sapphire.scm || untested || untested ||
 || ICCup seongangil1.1.scx || untested || untested ||
 || ICCup sinchupunryeong2.1.scx || untested || untested ||
@@ -45,3 +45,7 @@
 || ICCup wuthering h 1.0.scx || untested || untested ||
 || ICCup yellow 1.1.scx || untested || untested ||
 || ICCup zodiac.scx || untested || untested ||
+
+== base_location ==
+
+These maps have a suitable base locations for each mineral cluster, however they only specify one possible side of the mineral cluster when a resource depot could be placed on either side. BWTA only allows one base location per mineral cluster at this time.
