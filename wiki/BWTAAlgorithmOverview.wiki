@@ -32,3 +32,5 @@
 10. Wall off each chokepoint in the arragement and determine sides of choke point.
 
 11. Faces that have region nodes become region polygons.
+
+12. Tell each base location what region it is in.
