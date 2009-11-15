@@ -1,11 +1,12 @@
 == Base location algorithm ==
 
-1. Read Mineral locations and buildability array in from BWAPI.
+1. Read mineral and vespene geyser locations and buildability array in from BWAPI.
 
 2. Group minerals by proximity into clusters.
 
 3. For each mineral cluster, determine best valid build tile position for base location.
 
+4. On game start, get minerals and vespene geysers from BWAPI and attach them to base locations.
 
 == Region-Chokepoint algorithm ==
 
