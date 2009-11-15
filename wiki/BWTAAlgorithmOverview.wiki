@@ -17,7 +17,7 @@
 
 3. Simplify polygons
 
-4. Construct voronoi diagram of line segments
+4. Construct voronoi diagram of line segments from edges of polygons
 
 5. Discard part of voronoi diagram inside polygons
 
