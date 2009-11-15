@@ -1,0 +1,33 @@
+Base location algorithm
+1. Mineral locations and buildability array in from BWAPI.
+
+2. Group by proximity into clusters.
+
+3. For each mineral cluster, determine best valid build tile position for base location.
+
+
+Region-Chokepoint algorithm.
+
+1. Read walkability array in from BWAPI.
+
+2. Simplify walkability array
+
+2. Extract unwalkable polygons
+
+3. Simplify polygons
+
+4. Construct voronoi diagram of line segments
+
+5. Discard part of voronoi diagram inside polygons
+
+6. Approximate parabolas in voronoi diagram with line segments
+
+7. Insert voronoi diagram into arrangement with polygons
+
+8. Determine which nodes of voronoi diagram are region nodes
+
+9. From regions determine best chokepoint node
+
+10. Wall off each chokepoint in the arragement and determine sides of choke point.
+
+11. Faces that have region nodes become region polygons.
