@@ -26,12 +26,16 @@
 
 7. Insert voronoi diagram into arrangement with polygons
 
-8. Determine which nodes of voronoi diagram are region nodes
+8. Discard useless segments of voronoi diagram.
 
-9. From regions determine best chokepoint node
+9. Determine which nodes of voronoi diagram are region nodes
 
-10. Wall off each chokepoint in the arragement and determine sides of choke point.
+10. From regions determine best chokepoint nodes (narrowest nodes) between regions.
 
-11. Faces that have region nodes become region polygons.
+11. From chokepoint nodes find end points of choke points so it spans the gap.
 
-12. Tell each base location what region it is in.
+12. Wall off each chokepoint in the arragement.
+
+13. Faces that have region nodes become region polygons.
+
+14. Tell each base location what region it is in.
