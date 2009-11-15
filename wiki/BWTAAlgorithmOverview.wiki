@@ -14,28 +14,28 @@
 
 2. Simplify walkability array
 
-2. Extract unwalkable polygons
+3. Extract unwalkable polygons
 
-3. Simplify polygons
+4. Simplify polygons
 
-4. Construct voronoi diagram of line segments from edges of polygons
+5. Construct voronoi diagram of line segments from edges of polygons
 
-5. Discard part of voronoi diagram inside polygons
+6. Discard part of voronoi diagram inside polygons
 
-6. Approximate parabolas in voronoi diagram with line segments
+7. Approximate parabolas in voronoi diagram with line segments
 
-7. Insert voronoi diagram into arrangement with polygons
+8. Insert voronoi diagram into arrangement with polygons
 
-8. Discard useless segments of voronoi diagram.
+9. Discard useless segments of voronoi diagram.
 
-9. Determine which nodes of voronoi diagram are region nodes
+10. Determine which nodes of voronoi diagram are region nodes
 
-10. From regions determine best chokepoint nodes (narrowest nodes) between regions.
+11. From regions determine best chokepoint nodes (narrowest nodes) between regions.
 
-11. From chokepoint nodes find end points of choke points so it spans the gap.
+12. From chokepoint nodes find end points of choke points so it spans the gap.
 
-12. Wall off each chokepoint in the arragement.
+13. Wall off each chokepoint in the arragement.
 
-13. Faces that have region nodes become region polygons.
+14. Faces that have region nodes become region polygons.
 
-14. Tell each base location what region it is in.
+15. Tell each base location what region it is in.
