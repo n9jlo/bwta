@@ -9,7 +9,10 @@ Methods:
   * [#getPosition getPosition]
   * [#getTilePosition getTilePosition]
   * [#getRegion getRegion]
+  * [#minerals minerals]
+  * [#gas gas]
   * [#getMinerals getMinerals]
+  * [#getStaticMinerals getStaticMinerals]
   * [#getGeysers getGeysers]
   * [#getGroundDistance getGroundDistance]
   * [#getAirDistance getAirDistance]
@@ -32,10 +35,25 @@ Returns the tile position of the base location.
 
 Returns the region the base location is in.
 
-=== getMinerals ===
-const std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Unit Unit]{{{*}}}> &getMinerals() const;
+=== minerals ===
+int minerals() const;
 
-Returns the set of minerals near the base location.
+Returns the total mineral count of all accessible mineral patches.
+
+=== gas===
+int gas() const;
+
+Returns the total gas count of all accessible vespene geysers.
+
+=== getMinerals ===
+const std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Unit Unit]{{{*}}}> &getMinerals();
+
+Returns the set of accessible mineral patches near the base location.
+
+=== getStaticMinerals ===
+const std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Unit Unit]{{{*}}}> &getStaticMinerals() const;
+
+Returns the set of all mineral patches near the base location, including mined out and invisible ones.
 
 === getGeysers ===
 const std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Unit Unit]{{{*}}}> &getGeysers() const;
