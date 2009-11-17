@@ -38,12 +38,12 @@ Returns the region the base location is in.
 === minerals ===
 int minerals() const;
 
-Returns the total mineral count of all accessible mineral patches.
+Returns the total mineral resource count of all accessible mineral patches.
 
 === gas===
 int gas() const;
 
-Returns the total gas count of all accessible vespene geysers.
+Returns the total gas resource count of all accessible vespene geysers.
 
 === getMinerals ===
 const std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Unit Unit]{{{*}}}> &getMinerals();
