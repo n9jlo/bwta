@@ -4,6 +4,7 @@ Library header file: [http://code.google.com/p/bwta/source/browse/trunk/include/
 
 Global functions:
 
+  * [#readMap readMap]
   * [#analyze analyze]
   * [#getRegions getRegions]
   * [#getChokepoints getChokepoints]
@@ -11,6 +12,11 @@ Global functions:
   * [#getStartLocations getStartLocations]
   * [#getStartLocation getStartLocation]
   * [#getNearestBaseLocation getNearestBaseLocation]
+
+=== readMap ===
+void readMap();
+
+Reads the contents of the map in to BWTA. This was added so analyze() can be executed in another thread.
 
 === analyze ===
 void analyze();
