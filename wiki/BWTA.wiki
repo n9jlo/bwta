@@ -46,7 +46,7 @@ std::set<[BaseLocation]{{{*}}}>& getStartLocations();
 Returns the set of base locations that are start locations.
 
 === getUnwalkablePolygons ===
-const std::set<Polygon*>& getUnwalkablePolygons();
+const std::set<Polygon{{{*}}}>& getUnwalkablePolygons();
 
 Returns the set of unwalkable polygons.
 
