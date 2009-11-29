@@ -11,7 +11,7 @@ Global functions:
   * [#getBaseLocations getBaseLocations]
   * [#getStartLocations getStartLocations]
   * [#getUnwalkablePolygons getUnwalkablePolygons]
-  * [#nearestUnwalkablePosition nearestUnwalkablePosition]
+  * [#getNearestUnwalkablePosition getNearestUnwalkablePosition]
   * [#getStartLocation getStartLocation]
   * [#getNearestBaseLocation getNearestBaseLocation]
 
@@ -50,8 +50,8 @@ const std::set<Polygon{{{*}}}>& getUnwalkablePolygons();
 
 Returns the set of unwalkable polygons.
 
-=== nearestUnwalkablePosition ===
-BWAPI::Position nearestUnwalkablePosition(BWAPI::Position position);
+=== getNearestUnwalkablePosition ===
+BWAPI::Position getNearestUnwalkablePosition(BWAPI::Position position);
 
 Returns the nearest position that is on the boundary of an unwalkable polygon.
 
