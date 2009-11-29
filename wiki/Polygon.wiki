@@ -9,6 +9,7 @@ Methods:
   * [#getArea getArea]
   * [#getPerimeter getPerimeter]
   * [#getCenter getCenter]
+  * [#getNearestPoint getNearestPoint]
   * [#isInside isInside]
 
 === getArea ===
@@ -25,6 +26,11 @@ Returns the perimeter of the polygon.
 [http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] getCenter() const;
 
 Returns the centroid of the polygon.
+
+=== getNearestPoint ===
+BWAPI::Position getNearestPoint(BWAPI::Position p) const;
+
+Returns the point on the boundary of the polygon that is nearest to the given point.
 
 === isInside ===
 bool isInside([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] p) const;
