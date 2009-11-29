@@ -10,6 +10,8 @@ Global functions:
   * [#getChokepoints getChokepoints]
   * [#getBaseLocations getBaseLocations]
   * [#getStartLocations getStartLocations]
+  * [#getUnwalkablePolygons getUnwalkablePolygons]
+  * [#nearestUnwalkablePosition nearestUnwalkablePosition]
   * [#getStartLocation getStartLocation]
   * [#getNearestBaseLocation getNearestBaseLocation]
 
@@ -42,6 +44,16 @@ Returns the set of base locations on the map.
 std::set<[BaseLocation]{{{*}}}>& getStartLocations();
 
 Returns the set of base locations that are start locations.
+
+=== getUnwalkablePolygons ===
+const std::set<Polygon*>& getUnwalkablePolygons();
+
+Returns the set of unwalkable polygons.
+
+=== nearestUnwalkablePosition ===
+BWAPI::Position nearestUnwalkablePosition(BWAPI::Position position);
+
+Returns the nearest position that is on the boundary of an unwalkable polygon.
 
 === getStartLocation ===
 [BaseLocation]{{{*}}} getStartLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Player Player]{{{*}}} player);
