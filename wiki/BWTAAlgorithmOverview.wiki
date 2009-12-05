@@ -39,3 +39,5 @@
 14. Faces that have region nodes become region polygons.
 
 15. Tell each base location what region it is in.
+
+BWTA uses [http://www.cgal.org/ CGAL] to contruct the arrangement and voronoi diagram.
