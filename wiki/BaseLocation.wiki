@@ -63,7 +63,7 @@ Returns the set of vespene geysers near the base location. If the set is empty, 
 === getGroundDistance ===
 double getGroundDistance(BaseLocation{{{*}}} other) const;
 
-Returns the ground (walking) distance to the given base location.
+Returns the ground (walking) distance to the given base location. If its impossible to reach the given base location from the current one, this will return a negative value.
 
 === getAirDistance ===
 double getAirDistance(BaseLocation{{{*}}} other) const;
