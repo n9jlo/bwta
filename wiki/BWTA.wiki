@@ -95,7 +95,7 @@ Returns the nearest base location(in ground/walking distance).
 
 [Polygon]{{{*}}} getNearestUnwalkablePolygon([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] tileposition);
 
-Returns the nearest unwalkable polygon (in ground/walking distance).
+Returns the nearest unwalkable polygon.
 
 === getNearestUnwalkablePosition ===
 BWAPI::Position getNearestUnwalkablePosition([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] position);
