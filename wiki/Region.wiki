@@ -35,11 +35,11 @@ const std::set<[BaseLocation]{{{*}}}>& getBaseLocations() const;
 Returns the set of base locations in the region.
 
 === isReachable ===
-bool isReachable(Region{{{*}}} region) const;
+bool isReachable([Region]{{{*}}} region) const;
 
 Returns true if its possible to walk from this region to the given region.
 
 === getReachableRegions ===
-const std::set<Region*>& getReachableRegions() const;
+const std::set<[Region]{{{*}}}>& getReachableRegions() const;
 
 Returns the set of regions reachable from this region.
