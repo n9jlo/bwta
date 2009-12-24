@@ -10,6 +10,8 @@ Methods:
   * [#getCenter getCenter]
   * [#getChokepoints getChokepoints]
   * [#getBaseLocations getBaseLocations]
+  * [#isReachable isReachable]
+  * [#getReachableRegions getReachableRegions]
 
 
 === getPolygon ===
@@ -31,3 +33,13 @@ Returns the set of chokepoints adjacent to the region.
 const std::set<[BaseLocation]{{{*}}}>& getBaseLocations() const;
 
 Returns the set of base locations in the region.
+
+=== isReachable ===
+bool isReachable(Region{{{*}}} region) const;
+
+Returns true if its possible to walk from this region to the given region.
+
+=== getReachableRegions ===
+const std::set<Region*>& getReachableRegions() const;
+
+Returns the set of regions reachable from this region.
