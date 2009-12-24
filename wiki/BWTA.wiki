@@ -6,14 +6,28 @@ Global functions:
 
   * [#readMap readMap]
   * [#analyze analyze]
+
   * [#getRegions getRegions]
   * [#getChokepoints getChokepoints]
   * [#getBaseLocations getBaseLocations]
   * [#getStartLocations getStartLocations]
   * [#getUnwalkablePolygons getUnwalkablePolygons]
-  * [#getNearestUnwalkablePosition getNearestUnwalkablePosition]
+
   * [#getStartLocation getStartLocation]
+
+  * [#getRegion getRegion]
+  * [#getNearestChokepoint getNearestChokepoint]
   * [#getNearestBaseLocation getNearestBaseLocation]
+  * [#getNearestUnwalkablePolygon getNearestUnwalkablePolygon]
+  * [#getNearestUnwalkablePosition getNearestUnwalkablePosition]
+
+  * [#isConnected isConnected]
+
+  * [#getGroundDistance getGroundDistance]
+  * [#getNearestTilePosition getNearestTilePosition]
+  * [#getGroundDistances getGroundDistances]
+  * [#getGroundDistanceMap getGroundDistanceMap]
+  * [#getShortestPath getShortestPath]
 
 === readMap ===
 void readMap();
@@ -50,17 +64,77 @@ const std::set<Polygon{{{*}}}>& getUnwalkablePolygons();
 
 Returns the set of unwalkable polygons.
 
-=== getNearestUnwalkablePosition ===
-BWAPI::Position getNearestUnwalkablePosition(BWAPI::Position position);
-
-Returns the nearest position that is on the boundary of an unwalkable polygon.
-
 === getStartLocation ===
 [BaseLocation]{{{*}}} getStartLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Player Player]{{{*}}} player);
 
 Given a pointer to a BWAPI::Player object, this function returns a pointer to the player's starting base location.
 
-=== getNearestBaseLocation ===
-[BaseLocation]{{{*}}} getNearestBaseLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] position);
+=== getRegion ===
+[Region]{{{*}}} getRegion(int x, int y);
 
-Returns the base location that is closest (in euclidean distance) to the given tile position.
+[Region]{{{*}}} getRegion([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] tileposition);
+
+Returns the region that the tile position is inside, or returns NULL if the tile position is not inside any region.
+
+=== getNearestChokepoint ===
+[Chokepoint]{{{*}}} getNearestChokepoint(int x, int y);
+
+[Chokepoint]{{{*}}} getNearestChokepoint([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] tileposition);
+
+Returns the nearest chokepoint (in ground/walking distance).
+
+=== getNearestBaseLocation ===
+[BaseLocation]{{{*}}} getNearestBaseLocation(int x, int y);
+
+[BaseLocation]{{{*}}} getNearestBaseLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] tileposition);
+
+Returns the nearest base location(in ground/walking distance).
+
+=== getNearestUnwalkablePolygon ===
+[Polygon]{{{*}}} getNearestUnwalkablePolygon(int x, int y);
+
+[Polygon]{{{*}}} getNearestUnwalkablePolygon([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] tileposition);
+
+Returns the nearest unwalkable polygon (in ground/walking distance).
+
+=== getNearestUnwalkablePosition ===
+BWAPI::Position getNearestUnwalkablePosition([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] position);
+
+Returns the nearest position that is on the boundary of an unwalkable polygon.
+
+
+=== isConnected ===
+bool isConnected(int x1, int y1, int x2, int y2);
+
+bool isConnected([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] a, [http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] b);
+
+Returns true if there exists a static path between the two given tile positions.
+
+=== getGroundDistance ===
+double getGroundDistance([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition], [http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] end);
+
+Returns the ground distance between the two given tile positions.
+
+=== getNearestTilePosition ===
+std::pair<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition], double> getNearestTilePosition([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] start, std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition]>& targets);
+
+Returns the tile position in the given set that is closest to the given tile position, along with the ground distance to that tile position.
+
+=== getGroundDistances ===
+std::map<BWAPI::TilePosition, double> getGroundDistances(BWAPI::TilePosition start, std::set<BWAPI::TilePosition>& targets);
+
+Returns the distance to each target tile position.
+
+=== getGroundDistanceMap ===
+void getGroundDistanceMap(BWAPI::TilePosition start, RectangleArray<double>& distanceMap);
+
+Fills up the given RectangleArray distance map with the distance from the given tile position. Tiles not reachable from the given tile position will be set to -1.
+
+=== getShortestPath ===
+std::vector<BWAPI::TilePosition> getShortestPath(BWAPI::TilePosition start, BWAPI::TilePosition end);
+
+Returns the shortest path from the start tile position to the end tile position.
+
+std::vector<BWAPI::TilePosition> getShortestPath(BWAPI::TilePosition start, std::set<BWAPI::TilePosition>& targets);
+
+Returns the shortest path from the start tile position to the closest target tile position.
