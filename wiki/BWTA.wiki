@@ -126,7 +126,7 @@ std::map<BWAPI::TilePosition, double> getGroundDistances(BWAPI::TilePosition sta
 Returns the distance to each target tile position.
 
 === getGroundDistanceMap ===
-void getGroundDistanceMap(BWAPI::TilePosition start, RectangleArray<double>& distanceMap);
+void getGroundDistanceMap(BWAPI::TilePosition start, RectangleArray< double >& distanceMap);
 
 Fills up the given RectangleArray distance map with the distance from the given tile position. Tiles not reachable from the given tile position will be set to -1.
 
