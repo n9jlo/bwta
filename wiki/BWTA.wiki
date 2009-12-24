@@ -133,8 +133,8 @@ Fills up the given RectangleArray distance map with the distance from the given 
 === getShortestPath ===
 std::vector<BWAPI::TilePosition> getShortestPath(BWAPI::TilePosition start, BWAPI::TilePosition end);
 
-Returns the shortest path from the start tile position to the end tile position.
+Returns the shortest path from the start tile position to the end tile position. If no path exists, the vector will be empty.
 
 std::vector<BWAPI::TilePosition> getShortestPath(BWAPI::TilePosition start, std::set<BWAPI::TilePosition>& targets);
 
-Returns the shortest path from the start tile position to the closest target tile position.
+Returns the shortest path from the start tile position to the closest target tile position. If no path exists to any of the target tile positions, the vector will be empty.
