@@ -2,7 +2,6 @@
 || iCCup adrenaline rush.scm || [#single_base_location ok] || [#single_base_location ok] ||
 || ICCup andromeda 1.0.scx || good || good ||
 || ICCup athena ii.scx || good || good ||
-|| iCCup avatar.scx || BWAPI crashes in lobby, before match starts || BWAPI crashes in lobby, before match starts ||
 || ICCup battleroyal.scx || good || good ||
 || ICCup blue storm 1.2.scx || good || good ||
 || ICCup byzantium3.0.scx || untested || good ||
