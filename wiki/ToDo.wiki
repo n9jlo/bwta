@@ -1,2 +1,1 @@
-  * Add BWTA::readMap()
   * Fix crash on faoi, gaia, and gods garden
