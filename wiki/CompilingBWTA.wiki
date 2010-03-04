@@ -7,4 +7,6 @@ In file segment_delaunay_graph_2.h, edit line 1237 and replace "protected" with 
 
 Checkout BWTA from the svn: http://code.google.com/p/bwta/source/checkout .
 
+If you don't have Qt installed or don't wish to access the debug renderings, remove #define DEBUG_DRAW 1 from functions.h
+
 Build as release.
