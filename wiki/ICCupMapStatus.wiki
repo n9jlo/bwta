@@ -1,5 +1,5 @@
 || Map || 1.4.2 || r82 || r134 ||
-|| iCCup adrenaline rush.scm || [#single_base_location ok] || [#single_base_location ok] ||
+|| iCCup adrenaline rush.scm || [#single_base_location ok] || [#single_base_location ok] || untested ||
 || ICCup andromeda 1.0.scx || good || good || untested ||
 || ICCup athena ii.scx || good || good || untested ||
 || ICCup battleroyal.scx || good || good || untested ||
