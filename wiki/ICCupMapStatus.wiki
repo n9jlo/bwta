@@ -1,50 +1,50 @@
-|| Map || 1.4.2 || r82 ||
+|| Map || 1.4.2 || r82 || r134 ||
 || iCCup adrenaline rush.scm || [#single_base_location ok] || [#single_base_location ok] ||
-|| ICCup andromeda 1.0.scx || good || good ||
-|| ICCup athena ii.scx || good || good ||
-|| ICCup battleroyal.scx || good || good ||
-|| ICCup blue storm 1.2.scx || good || good ||
-|| ICCup byzantium3.0.scx || untested || good ||
-|| ICCup carthage2.0.scm || untested || good ||
-|| ICCup colosseumii 2.0.scx || good || good ||
-|| ICCup destination 1.1.scx || chokepoint error || good ||
-|| iCCup enarey1.3.scx || untested || good ||
-|| ICCup faoi 2.1.scx || untested || crash ||
-|| ICCup gaia.scx || untested || crash ||
-|| ICCup gods garden.scx || untested || crash ||
-|| ICCup hannibal 1.1.scx || untested || good ||
-|| ICCup heartbreak ridge1.1.scx || untested || overlapping base locations in center ||
-|| iCCup holy world 1.1.scx || untested || [#single_base_location ok] ||
-|| ICCup hunters_kespa 1.1.scx || untested || good ||
-|| ICCup hwangsanbul 1.2.scx || untested || good ||
-|| ICCup katrina_se 2.0.scx || untested || possibly infinite loop, gave up waiting for it to complete ||
-|| ICCup longinus.scx || good || good ||
-|| ICCup lost temple 2.4.scx || good || good ||
-|| ICCup luna the final.scx || good || good ||
-|| iCCup mengsk pride.scm || untested || possibly infinite loop, gave up waiting for it to complete ||
-|| ICCup neo medusa2.1.scx || untested || good ||
-|| ICCup neo requiem 2.1.scx || untested || [#single_base_location ok] ||
-|| ICCup odyssey.scx || untested || good ||
-|| ICCup othello 1.1.scx || untested || good ||
-|| ICCup outsider.scx || chokepoint error || [#single_base_location ok] ||
-|| ICCup peaksofbeakdu.scx || chokepoint error || good ||
-|| ICCup python 1.3.scx || good || good ||
-|| ICCup return of the king.scx || good || good ||
-|| iCCup ridge2ridge2.1.scm || good || good ||
-|| ICCup rush hour 3.1.scx || chokepoint error || good ||
-|| iCCup sapphire.scm || untested || untested ||
-|| ICCup seongangil1.1.scx || untested || untested ||
-|| ICCup sinchupunryeong2.1.scx || untested || untested ||
-|| ICCup spinel valley iii.scx || untested || untested ||
-|| ICCup swordinthemoon2.1.scx || untested || untested ||
-|| ICCup tau cross.scx || untested || good ||
-|| iCCup tearsofthemoon1.1.scx || untested || untested ||
-|| iCCup texcoco3.1.scm || untested || untested ||
-|| ICCup vampire.scx || untested || untested ||
-|| ICCup voices iv.scx || untested || untested ||
-|| ICCup wuthering h 1.0.scx || untested || untested ||
-|| ICCup yellow 1.1.scx || untested || good ||
-|| ICCup zodiac.scx || untested || good ||
+|| ICCup andromeda 1.0.scx || good || good || untested ||
+|| ICCup athena ii.scx || good || good || untested ||
+|| ICCup battleroyal.scx || good || good || untested ||
+|| ICCup blue storm 1.2.scx || good || good || untested ||
+|| ICCup byzantium3.0.scx || untested || good || untested ||
+|| ICCup carthage2.0.scm || untested || good || untested ||
+|| ICCup colosseumii 2.0.scx || good || good || untested ||
+|| ICCup destination 1.1.scx || chokepoint error || good || untested ||
+|| iCCup enarey1.3.scx || untested || good || untested ||
+|| ICCup faoi 2.1.scx || untested || crash || untested ||
+|| ICCup gaia.scx || untested || crash || untested ||
+|| ICCup gods garden.scx || untested || crash || untested ||
+|| ICCup hannibal 1.1.scx || untested || good || untested ||
+|| ICCup heartbreak ridge1.1.scx || untested || overlapping base locations in center || untested ||
+|| iCCup holy world 1.1.scx || untested || [#single_base_location ok] || untested ||
+|| ICCup hunters_kespa 1.1.scx || untested || good || untested ||
+|| ICCup hwangsanbul 1.2.scx || untested || good || untested ||
+|| ICCup katrina_se 2.0.scx || untested || possibly infinite loop, gave up waiting for it to complete || untested ||
+|| ICCup longinus.scx || good || good || untested ||
+|| ICCup lost temple 2.4.scx || good || good || untested ||
+|| ICCup luna the final.scx || good || good || untested ||
+|| iCCup mengsk pride.scm || untested || possibly infinite loop, gave up waiting for it to complete || untested ||
+|| ICCup neo medusa2.1.scx || untested || good || untested ||
+|| ICCup neo requiem 2.1.scx || untested || [#single_base_location ok] || untested ||
+|| ICCup odyssey.scx || untested || good || untested ||
+|| ICCup othello 1.1.scx || untested || good || untested ||
+|| ICCup outsider.scx || chokepoint error || [#single_base_location ok] || untested ||
+|| ICCup peaksofbeakdu.scx || chokepoint error || good || untested ||
+|| ICCup python 1.3.scx || good || good || untested ||
+|| ICCup return of the king.scx || good || good || untested ||
+|| iCCup ridge2ridge2.1.scm || good || good || untested ||
+|| ICCup rush hour 3.1.scx || chokepoint error || good || untested ||
+|| iCCup sapphire.scm || untested || untested || untested ||
+|| ICCup seongangil1.1.scx || untested || untested || untested ||
+|| ICCup sinchupunryeong2.1.scx || untested || untested || untested ||
+|| ICCup spinel valley iii.scx || untested || untested || untested ||
+|| ICCup swordinthemoon2.1.scx || untested || untested || untested ||
+|| ICCup tau cross.scx || untested || good || untested ||
+|| iCCup tearsofthemoon1.1.scx || untested || untested || untested ||
+|| iCCup texcoco3.1.scm || untested || untested || untested ||
+|| ICCup vampire.scx || untested || untested || untested ||
+|| ICCup voices iv.scx || untested || untested || untested ||
+|| ICCup wuthering h 1.0.scx || untested || untested || untested ||
+|| ICCup yellow 1.1.scx || untested || good || untested ||
+|| ICCup zodiac.scx || untested || good || untested ||
 
 === single_base_location ===
 
