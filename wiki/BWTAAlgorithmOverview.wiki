@@ -1,4 +1,4 @@
-I've written a paper on the terrain analysis algorithm implemented in BWTA. It can be downloaded from my google site at:
+I've written a paper on the terrain analysis algorithm implemented in BWTA. It can be downloaded from my web page at:
 
 [https://sites.google.com/site/lowerlogic/papers/AIIDE2010_LPerkins.pdf?attredirects=0&d=1 Perkins, L. 2010. Terrain Analysis in Real-time Strategy Games: An Integrated Approach to Choke Point Detection and Region Decomposition. In Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2010)]
 
