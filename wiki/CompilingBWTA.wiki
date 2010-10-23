@@ -1,3 +1,0 @@
-Checkout the entire BWTA repository: http://bwta.googlecode.com/svn/
-
-If you don't have Qt installed or don't wish to access the debug renderings, remove #define DEBUG_DRAW 1 from functions.h
