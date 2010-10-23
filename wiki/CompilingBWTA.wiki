@@ -1,10 +1,3 @@
-Follow these instructions to install Boost and CGAL, except use Boost 1.40 and CGAL 3.5.1:
-http://acg.cs.tau.ac.il/cgal-at-tau/installing-cgal-and-related-programs-on-windows
-
-If you are missing CGAL/compiler_config.h, you can use the following: http://bwta.googlecode.com/files/compiler_config.h
-
-Checkout BWTA from the svn: http://code.google.com/p/bwta/source/checkout .
+Checkout the entire BWTA repository: http://bwta.googlecode.com/svn/
 
 If you don't have Qt installed or don't wish to access the debug renderings, remove #define DEBUG_DRAW 1 from functions.h
-
-Build as release.
