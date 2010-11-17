@@ -81,14 +81,18 @@ Returns the region that the tile position is inside. Returns NULL if the tile po
 
 [Chokepoint]{{{*}}} getNearestChokepoint([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] tileposition);
 
-Returns the nearest chokepoint (in ground/walking distance). Returns NULL if no chokepoint is reachable from the given tile position (such as in an island component with no chokepoints).
+[Chokepoint]{{{*}}} getNearestChokepoint([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position Position] position);
+
+Returns the nearest chokepoint (in ground/walking distance). Returns NULL if no chokepoint is reachable from the given tile position (such as in an island component with no chokepoints). The Position version of this function has walk tile accuracy, while the other two have build tile accuracy.
 
 === getNearestBaseLocation ===
 [BaseLocation]{{{*}}} getNearestBaseLocation(int x, int y);
 
 [BaseLocation]{{{*}}} getNearestBaseLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] tileposition);
 
-Returns the nearest base location(in ground/walking distance). Returns NULL if no base location is reachable from the given tile position.
+[BaseLocation]{{{*}}} getNearestBaseLocation([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#Position TilePosition] position);
+
+Returns the nearest base location(in ground/walking distance). Returns NULL if no base location is reachable from the given tile position. The Position version of this function has walk tile accuracy, while the other two have build tile accuracy.
 
 === getNearestUnwalkablePolygon ===
 [Polygon]{{{*}}} getNearestUnwalkablePolygon(int x, int y);
