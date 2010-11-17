@@ -120,12 +120,12 @@ double getGroundDistance([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]
 Returns the ground distance between the two given tile positions.
 
 === getNearestTilePosition ===
-std::pair<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition], double> getNearestTilePosition([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] start, std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition]>& targets);
+std::pair<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition], double> getNearestTilePosition([http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition] start, const std::set<[http://code.google.com/p/bwapi/wiki/BWAPIManual BWAPI]::[http://code.google.com/p/bwapi/wiki/Misc#TilePosition TilePosition]>& targets);
 
 Returns the tile position in the given set that is closest to the given tile position, along with the ground distance to that tile position.
 
 === getGroundDistances ===
-std::map<BWAPI::TilePosition, double> getGroundDistances(BWAPI::TilePosition start, std::set<BWAPI::TilePosition>& targets);
+std::map<BWAPI::TilePosition, double> getGroundDistances(BWAPI::TilePosition start, const std::set<BWAPI::TilePosition>& targets);
 
 Returns the distance to each target tile position.
 
@@ -139,6 +139,6 @@ std::vector<BWAPI::TilePosition> getShortestPath(BWAPI::TilePosition start, BWAP
 
 Returns the shortest path from the start tile position to the end tile position. If no path exists, the vector will be empty.
 
-std::vector<BWAPI::TilePosition> getShortestPath(BWAPI::TilePosition start, std::set<BWAPI::TilePosition>& targets);
+std::vector<BWAPI::TilePosition> getShortestPath(BWAPI::TilePosition start, const std::set<BWAPI::TilePosition>& targets);
 
 Returns the shortest path from the start tile position to the closest target tile position. If no path exists to any of the target tile positions, the vector will be empty.
